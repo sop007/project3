@@ -1,0 +1,71 @@
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+h4 {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 40px;
+    color: #707070;
+
+}
+
+.photos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+section {
+    width: 80%;
+
+}
+
+.boxerti {
+    width: 25%;
+}
+
+.boxori {
+    width: 25%;
+}
+
+.boxsami {
+    width: 25%;
+}
+
+h1 {
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #707070
+}
+p{
+    font-size: 80%;
+    color: #707070;
+}
+@media (max-width:480px) {
+    .meore {
+        width: 480px;
+    }
+}
